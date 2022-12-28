@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_map/ui/map_screen/map_screen.dart';
-import 'package:google_map/ui/splash_screen/app_colors.dart';
-import 'package:google_map/ui/splash_screen/app_loties.dart';
+import 'package:google_map/utils/app_colors.dart';
+import 'package:google_map/utils/app_loties.dart';
 import 'package:google_map/view_models/splash_view_model.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
