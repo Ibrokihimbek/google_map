@@ -47,8 +47,10 @@ class SplashViewModel extends ChangeNotifier {
   }
 
   listenCurrentLocation() {
-    location.onLocationChanged.listen((event) {
-      // print("LOCATION CHANGED: ${event.longitude}, ${event.latitude}");
-    });
+    location.onLocationChanged.listen(
+      (event) {
+        // print("LOCATION CHANGED: ${event.longitude}, ${event.latitude}");
+      },
+    );
   }
 }

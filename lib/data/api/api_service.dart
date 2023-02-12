@@ -4,7 +4,6 @@ import 'package:dio/dio.dart';
 import 'package:google_map/data/api/api_client.dart';
 import 'package:google_map/data/geocoding/geocoding/geocoding.dart';
 import 'package:google_map/data/models/my_response/response_model.dart';
-import 'package:google_map/utils/constants.dart';
 
 class ApiService extends ApiClient {
   Future<AppResponse> getLocationName(
@@ -13,7 +12,7 @@ class ApiService extends ApiClient {
     try {
       late Response response;
       Map<String, String> queryParams = {
-        'apikey': mapApiKey,
+        'apikey': "98766a71-a866-47bf-8184-2f9cb48187d2",
         'geocode': geoCodeText,
         'lang': 'uz_UZ',
         'format': 'json',
